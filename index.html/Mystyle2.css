@@ -1,0 +1,39 @@
+/* CSS for Styling the Navigation Menu */
+nav{
+    background-color: rgba(148, 26, 87, 0.747);
+    color: rgb(200, 238, 130);
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+body  {
+    background: url("download\ \(1\).jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #457fa100;
+    padding: 20px;
+  }
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: rgb(10, 8, 8);
+    
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+section{
+    padding: 20px;
+}
+footer{
+    background-color: rgb(145, 28, 63);
+    color: rgb(2, 10, 1);
+    text-align: center;
+    padding:10px 0;
+}

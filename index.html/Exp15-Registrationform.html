@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>Registration page</title>
+    <link rel="stylesheet" href="Mystyle2.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./Home.html"> Home </a></li>
+            <li><a href="./About.html"> About </a></li>
+            <li><a href="./ContactUs.html"> Contact Us </a></li>
+            <li><a href="./Exp15-Registrationform.html"> Sign UP</a></li>
+            <li><a href="./Exp11-LoginPage.html"> Login </a></li>
+            
+        </ul>
+    </nav>
+    </nav>
+      <center><h1>Welcome To our Restaurant</h1></center>
+    <h2>Sign In Into our Restaurant!</h2>
+    <form action="Regi.html" method="post">
+        <label>UserName:</label> <input type="text" name="uname"placeholder="UserName"><br><br>
+        <label>AGE:</label><input type="number" name="age" placeholder="Enter age " required min="18" max="50"><br><br>
+         <label>Enter your Mobile Number :</label><input type="tel" name="personal" id="per1" pattern="[0-9]{10}" title="The Ten digits number"><br><br>
+        <label>Guardian:</label> <input type="text" name="gname"placeholder="guardian"><br><br>
+         <label>Enter Guardian Mobile Number :</label><input type="tel" name="personal" id="per1" pattern="[0-9]{10}" title="The Ten digits number"><br><br>
+       <label>Date of Birth:</label> <input type="date" name="bname"><br><br>
+        <label>Email id:</label> <input list="email" name="office" id="myofficeid"><br>
+<br>
+          <label>Address:</label><br>
+       <textarea name="address" cols="25" rows="3">Enter your Address here!</textarea>
+        <datalist id="email">
+            <option value="gayathri@gmail.com"></option>
+            <option value="Honey@gmail.com"></option>
+            <option value="Bokkasam@yahoo.com"></option>
+        </datalist><br><br>
+       <label>Gender:</label>
+        <input type="radio" name="gender" value="M">Male
+        <input type="radio" name="gender" value="F">Female<br><br>
+        <label>choose Your Position:</label><br>
+            <input type="checkbox" name="lang[]" value="Chef">Chef<br>
+        <input type="checkbox" name="lang[]" value="Server">Server<br>
+        <input type="checkbox" name="lang[]" value="Barista">Barista<br>
+        <input type="checkbox" name="lang[]" value="Kitchen Manager">Kitchen Manager<br>
+         <input type="checkbox" name="lang[]" value="Assistant Manager">Assistant Manager<br>
+        </select><br><br>
+        <label>Education Qualification:</label>
+          <select name="Select one Type">
+             <option value="BBA">BBA</option>
+            <option value="BHM">BHM</option>
+            <option value="Another Degree">Another Degree</option><br><br>
+           <br>
+    </form><br>
+            <input type="submit" value="Submit"><br><br>
+    <footer>
+        <p>$copy; 2024 My Mycompany. All Rights are Reserved.</p>
+    </footer>
+</body>
+</html>
